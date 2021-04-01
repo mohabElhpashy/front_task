@@ -4,7 +4,7 @@ import { BsFillReplyAllFill } from "react-icons/bs";
 function Messages({ CheckMessage }) {
   return CheckMessage ? (
     <div style={{ height: "100px" }} className="notification_div">
-      <h2 style={{ transition: "all 0.6s" }}> Mesaages</h2>
+      <h2 style={{ transition: "all 0.6s" }}> Messages</h2>
       <hr />
       <ul>
         <li>mesage one</li>

@@ -1,13 +1,14 @@
 .notification_div {
-  background-color: rgb(134, 101, 101);
-  width: 70%;
+  background-color: white;
+  width: 65%;
   /* height: 200px; */
-  color: white;
+  color: #1e90ff;
   transition: all 0.3s;
   margin: auto;
   border-radius: 7px;
   text-align: center;
   overflow-y: scroll;
+  margin-top: 4px;
 }
 ul {
   display: grid;

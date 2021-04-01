@@ -8,10 +8,12 @@ import {
 import { MdDashboard } from "react-icons/md";
 import Notfi from "../Notification/Notification";
 import Message from "../Messages/Messages";
+import PRofile from "../Profile/Profile";
 
 function NavBar() {
   const [notification, setnotification] = useState(false);
   const [Messages, setMessages] = useState(false);
+  const [Profile, setProfile] = useState(false);
 
   return (
     <div>
@@ -37,12 +39,19 @@ function NavBar() {
             <BsFillChatDotsFill color="white" size={35} />
           </li>
           <li>
-            <BsFillPersonFill color="white" size={35} />
+            <BsFillPersonFill
+              onClick={() => {
+                setProfile(!Profile);
+              }}
+              color="white"
+              size={35}
+            />
           </li>
         </ul>
       </nav>
       <Notfi checknoti={notification} />
       <Message CheckMessage={Messages} />
+      <PRofile CheckProfile={Profile} />
     </div>
   );
 }
