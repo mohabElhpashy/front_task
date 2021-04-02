@@ -1,0 +1,30 @@
+.notification_divvv {
+  background-color: white;
+  height: 300px;
+  color: #4682b4;
+  transition: all 0.3s;
+  border-radius: 7px;
+  text-align: center;
+  overflow-y: scroll;
+  margin-top: 2px;
+  position: absolute;
+  top: 55px;
+  /* margin-left: 15px; */
+  left: 0;
+}
+
+.notification_divvv ul {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.notification_divvv ul li {
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.notification_divvv ul li:hover {
+  cursor: pointer;
+  background-color: #4682b4;
+  color: white;
+}

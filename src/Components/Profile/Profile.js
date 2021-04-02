@@ -10,7 +10,6 @@ function Profile({ CheckProfile }) {
       </h2>
       <hr />
       <h3>FirstName</h3>
-      <hr />
       <h3>LastName</h3>
       <button className="Save">Save Changes</button>
     </div>

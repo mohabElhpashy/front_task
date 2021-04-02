@@ -1,8 +1,9 @@
 .notification_div {
   background-color: white;
-  width: 65%;
+  width: 372px;
+
   /* height: 200px; */
-  color: #1e90ff;
+  color: #4682b4;
   transition: all 0.3s;
   margin: auto;
   border-radius: 7px;
@@ -13,4 +14,7 @@
 ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+ul li {
+  margin-bottom: 8px;
 }
