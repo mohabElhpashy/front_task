@@ -21,11 +21,11 @@
       const [Messages, setMessages] = useState(false);
       const [Profile, setProfile] = useState(false);
       const [DashBoard, setDashBoard] = useState(false);
-      const [Weather, setWeather] = useState(false);
+      // const [Weather, setWeather] = useState(false);
 
       const CloseProvider = () => {
         setDashBoard(false);
-        setWeather(true);
+        // setWeather(true);
       };
       useEffect(() => {
         Aos.init({ duration: 2000 });
@@ -41,7 +41,7 @@
                   setProfile(false);
                   setMessages(false);
                   setnotification(false);
-                  setWeather(false);
+                  // setWeather(false);
                 }}
               >
                 {DashBoard ? (
@@ -57,7 +57,7 @@
                   setMessages(false);
                   setProfile(false);
                   setDashBoard(false);
-                  setWeather(false);
+                  // setWeather(false);
 
                   //   document.getElementById("two").style.color = "blue";
                 }}
@@ -76,7 +76,7 @@
                   setnotification(false);
                   setProfile(false);
                   setDashBoard(false);
-                  setWeather(false);
+                  // setWeather(false);
 
                 }}
               >
@@ -99,7 +99,7 @@
                       setProfile(!Profile);
                       setMessages(false);
                       setDashBoard(false);
-                      setWeather(false);
+                      // setWeather(false);
 
                       setnotification(false);
                     }}
@@ -112,7 +112,7 @@
                       setProfile(!Profile);
                       setMessages(false);
                       setnotification(false);
-                      setWeather(false);
+                      // setWeather(false);
 
                     }}
                     color="white"
