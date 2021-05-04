@@ -11,6 +11,18 @@
 
   justify-content: space-around;
 }
+.spaaan{
+  display: none;
+  background-color: gainsboro;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 7px;
+  width: 95px;
+  position: absolute;
+  text-align: center;
+  height: 30px;
+}
 .NavBar ul li {
   margin: 10px;
   position: relative;
@@ -19,6 +31,5 @@
   cursor: pointer;
 }
 
-.NavBar ul li:hover .hoverme {
-  visibility: hidden;
-}
+.NavBar ul li:hover .spaaan {
+display: block;}

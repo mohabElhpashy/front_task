@@ -1,4 +1,4 @@
-.notification_div {
+.notification_div_ {
   background-color: white;
   width: 372px;
 
@@ -10,6 +10,7 @@
   text-align: center;
   overflow-y: scroll;
   margin-top: 4px;
+  margin-left: 150px;
 }
 ul {
   display: grid;
@@ -17,4 +18,10 @@ ul {
 }
 ul li {
   margin-bottom: 8px;
+}
+@media (max-width:680px){
+  .notification_div_{
+    margin-left: 0;
+    width: 70%;
+  }
 }

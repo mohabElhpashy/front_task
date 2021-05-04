@@ -1,13 +1,14 @@
 .Weather_div {
-  width: 280px;
+  width: 30%;
   background-color: transparent;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 100px black;
   transition: all 0.3s;
   margin: auto;
   border-radius: 8px;
   /* border: 1px solid #4682b4; */
-  margin-top: 80px;
+  margin-top: 60px;
   text-align: center;
+  border: 1px solid white;
 }
 .maina {
   display: flex;
@@ -18,4 +19,40 @@
   color: white;
   font-size: 40px;
 
+}
+.maina span{
+  font-size: 17px;
+  color: black;
+  font-style: italic;
+}
+.div_hava_input{
+  display: flex;
+  justify-content: space-between;
+}
+.div_hava_input button{
+  background-color: #FFD700;
+  border: 1px solid black;
+  color: black;
+}.div_hava_input button:hover{
+  cursor: pointer;
+}
+.div_hava_input input{
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+}
+::placeholder{
+  text-align: center;
+  color: black;
+}
+
+@media (max-width:680px){
+  .Weather_div{
+    width: 50%;
+  }
 }
